@@ -63,3 +63,6 @@ function attachElementListeners() {
     }
   });
 }
+function redirectToWebsite() {
+  window.location.href = "https://abhishekyydv.github.io/Periodic-Table-Game/";
+}
