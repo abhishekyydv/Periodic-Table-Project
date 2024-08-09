@@ -295,6 +295,7 @@ td:hover {
   padding: 2px; /* Reduce padding for a shorter look */
   text-align: center; /* Center text for a cleaner appearance */
   font-size: 10px; /* Reduce font size */
+  backgrounf-color:#f4f4f4;
 }
 
 #legend-table th {
