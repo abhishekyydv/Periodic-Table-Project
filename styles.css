@@ -115,7 +115,6 @@ td.empty {
 
 .dark-theme td.empty {
   border-color: #444444;
-  background-color: #444444; /* Dark background for empty cells */
 }
 
 td.empty:hover {
@@ -325,25 +324,43 @@ td:hover {
 }
 
 .dark-theme #legend-table {
-  border-color: #444; /* Darker border color */
+  margin: 0;
+  padding: 0; /* Remove padding */
+  border-collapse: collapse; /* Collapse borders for a more compact look */
+}
+
+/* Table header and cell styles */
+.dark-theme #legend-table th,
+#legend-table td {
+  border: 1px solid #fffefe;
+  padding: 2px; /* Reduce padding for a shorter look */
+  text-align: center; /* Center text for a cleaner appearance */
+  font-size: 10px; /* Reduce font size */
+  background-color: #363636;
 }
 
 .dark-theme #legend-table th {
-  background-color: #333; /* Dark background for header */
-  color: #e0e0e0; /* Light text color */
-}
-
-.dark-theme #legend-table td {
-  background-color: #444; /* Dark background for table cells */
-  color: #e0e0e0; /* Light text color */
+  background-color: #000000;
+  font-weight: bold;
 }
 
 .dark-theme .legend-color {
-  background-color: #666; /* Darker color for legend blocks */
+  width: 80px;
+  height: 10px;
+  display: inline-block;
+  margin-right: 3px; /* Reduce margin */
 }
 
+/* Legend container styles */
 .dark-theme .legend-container {
-  background-color: #222; /* Dark background for legend container */
-  border: 1px solid #555; /* Darker border color */
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5); /* Darker shadow effect */
+  position: absolute;
+  width: 20%;
+  top: 100px; /* Adjust this to position your legend */
+  left: 40%; /* Center horizontally */
+  transform: translateX(-50%);
+  background-color: rgb(99, 98, 98);
+  padding: 2px; /* Reduce padding for a more compact appearance */
+  border: 1px solid #ddd;
+  border-radius: 2px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1); /* Reduce shadow effect */
 }
