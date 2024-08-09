@@ -63,9 +63,11 @@ function attachElementListeners() {
     }
   });
 }
+
 function redirectToWebsite() {
   window.location.href = "https://abhishekyydv.github.io/Periodic-Table-Game/";
 }
 function redirectToWebsite2() {
-  window.location.href = "https://abhishekyydv.github.io/Periodic-Table-Tricks/";
+  window.location.href =
+    "https://abhishekyydv.github.io/Periodic-Table-Tricks/";
 }
