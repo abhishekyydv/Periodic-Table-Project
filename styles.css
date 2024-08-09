@@ -330,17 +330,19 @@ td:hover {
 }
 
 /* Table header and cell styles */
-.dark-theme #legend-table th,
-#legend-table td {
-  border: 1px solid #fffefe;
+
+.dark-theme #legend-table td {
+  border: 1px solid #ddd;
+  background-color: #2c2b2b;
+  color: #ffffff;
   padding: 2px; /* Reduce padding for a shorter look */
   text-align: center; /* Center text for a cleaner appearance */
   font-size: 10px; /* Reduce font size */
-  background-color: #363636;
 }
 
 .dark-theme #legend-table th {
-  background-color: #000000;
+  background-color: #0a0a0a;
+  color: white;
   font-weight: bold;
 }
 
@@ -358,7 +360,7 @@ td:hover {
   top: 100px; /* Adjust this to position your legend */
   left: 40%; /* Center horizontally */
   transform: translateX(-50%);
-  background-color: rgb(99, 98, 98);
+  background-color: rgb(22, 21, 21);
   padding: 2px; /* Reduce padding for a more compact appearance */
   border: 1px solid #ddd;
   border-radius: 2px;
